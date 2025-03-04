@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.board-app h1{
+    background-color: black;
+    padding: 50px;
+    color:white;
+    margin:-20px -20px 30px;
+}
+.board-app {
+    text-align: center;
+    padding: 20px;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+.input-section input,
+.input-section textarea {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-section button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.input-section button:hover {
+    background-color: #0056b3;
+}
+
+.post-list {
+    margin-top: 20px;
+}
+
+.post-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.post-item:hover {
+    background-color: #f0f0f0;
+}
+
+.post-detail {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(197, 215, 221);
+}
+
+.post-detail input,
+.post-detail textarea {
+    display: block;
+    width: 80%;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.post-detail button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+}
+
+.post-detail button:hover {
+    background-color: #218838;
+}
