@@ -1,0 +1,28 @@
+/* scss를 사용하려면 node-sass를 설치해야 하는데 npm install node-sass@9를 설치해야 한다!! 잘못 설치했다면 프로젝트 폴더 안에서 npm uninstall node-sass 후 => npm install node-sass@9 */
+//설치후 버전 확인하려면 04 폴더 안에서 npm show node-sass version 으로 확인!
+//파일명.module.scss라는 명칭을 사용해야 함!!
+
+.container {
+  border: solid 1px #aaa;
+  border-radius: 20px;
+  padding: 8px;
+  margin: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.title {
+  margin: 0;
+  color: #aaa;
+}
+.button {
+  background-color: #ddd;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  &:hover {
+    background-color: #aaa;
+    color: #fff;
+    cursor: pointer;
+  }
+}

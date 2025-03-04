@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />    
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+    <mark>Reactjs code snippets 익스텐션 설치하여 리액트 코드 자동생성</mark>
+    <ol>
+      <li>rsc ( React Server Component) 치고 엔터 : 서버에서 랜더링되는 컴포넌트로 화살표 함수형 컴포넌트 생성</li>
+      <li>rsf (React Server Function ) 치고 엔터 : 서버에서 랜더링되는 컴포넌트로 함수형 컴포넌트 생성</li>
+      <li>rcc (React Client Component) : 클래스 컴포넌트 생성</li>
+    </ol>
+    <mark>auto import 익스텐션 설치하여 자동 import : 컴포넌트 이름 적다가 자동으로 뜨는 목록 선택하면 자동 import</mark>
+    <h1>스타일 적용</h1>
+    <ol>
+      <li>InlineStyles : 컴포넌트 안에서 스타일을 객체로 정의후 return 시에  태그 안에서 style={}변수명으로 기술해서 사용</li>
+      <li>CssModules : 외부 스타일처럼 컴포넌트 안에 css/scss를 기술해서 사용<h2>=> npm install node-sass 설치시 5번 폴더 안에서 설치</h2></li>
+      <li>Styled jsx : <style jsx>{` 스타일 정의 `}</style> 형식으로 사용</li>
+      <li>StyledComponents : 컴포넌트 안에서 스타일을 기술 후 태그를 만들어 사용한다. 기술시에는 const 변수명 = styled.태그명` css기술`로 스타일 정의후 return에서는 정의한 태그로 요소를 감싸서 사용 <h2>=> css폴더 안에서 install styled-components 명령어로 설치!</h2></li>
+      <li>Emotion : 다양한 방법으로 css를 기술가능 =>npm install @emotion/react @emotion/styled</li>
+      <li>TailwindCss : 유틸리티 우선 프레임워크로 css패키지 안에 두개 라이브러리 설치=> npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9 => npm install @craco/craco</li>
+    </ol>
+    
+  </body>
+</html>

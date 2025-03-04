@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root"></div>
+  <hr>
+  <h1>메모이제이션</h1>
+  <p>부모가 재랜더링(State가 업데이트 될 때, Props가 변경될 때, 부모가 재랜더링될 때 자식과 손자 컴포넌트까지 재랜더링)될 때 불필요한 자식 컴포넌트는 재랜더링되지 않도록 제어하는 것을 말하며 메모이제이션은 이전 처리 결과를 저장해서 처리 속도를 높이는 기술이다. 필요할 때만 다시 계산하게 해서 불필요한 처리를 줄일 수 있다.</p>
+  <p>const Component = memo(() =>{})</p>
+  <hr>
+  <h1>함수를 Props로 받는 child1은 props가 변화했다고 판단해서 버튼을 클릭할 때마다 불필요한 재랜더링을 한다. 이 현상을 피하기 위해서는 함수를 메모이제이션해야 한다!! 함수를 메모이제이션하기 위해 useCallback함수를 사용할 수 있다.</h1>
+</body>
+</html>
