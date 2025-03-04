@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0
+}
+.app{
+    
+    text-align: center;
+}
+.header{
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding:50px 0
+}
+
+/* next step */
+.list{
+    padding:20px;
+    border-bottom:2px solid gray;
+}
